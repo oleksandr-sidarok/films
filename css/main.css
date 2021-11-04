@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font: inherit;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font: inherit;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 24px;
+  color: inherit;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #1A1F38;
+  padding: 16px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header__search {
+  position: relative;
+  box-sizing: border-box;
+  width: 470px;
+  height: 60px;
+  background: #C4C4C44D;
+  border-radius: 8px;
+  padding: 20px;
+  padding-right: 50px;
+  color: #fff;
+}
+
+.search__wrapper {
+  position: relative;
+}
+
+.search__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-image: url("../img/icons/search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  padding: 300px 0px 170px;
+  background: linear-gradient(#1E1C1C80, #1E1C1C70), url("../img/bg1.jpg");
+}
+
+.intro__title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.intro__text {
+  max-width: 850px;
+}
+
+.tranding-movies {
+
+}
