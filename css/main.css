@@ -273,7 +273,7 @@ input {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   .catalog__wrapper {
     margin-left: -10px;
   }
